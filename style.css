@@ -1,0 +1,785 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{   
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    color:white;
+    word-spacing: 0px;
+}
+
+p{
+    padding: 10px 0 10px 0;
+}
+
+a{
+    cursor: pointer;
+}
+
+/*Header & Menu*/
+
+header{
+    font-family: cursive, sans-serif;
+    letter-spacing: 1px;
+    height: 100%;
+    width: 100%;
+    background-image: url(imagem/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    visibility: hidden;
+    position: absolute;
+}
+
+label{
+    visibility: hidden;
+    position: absolute;
+}
+
+input[type="checkbox"]{
+    visibility: hidden;
+    position: absolute;
+}
+
+#img-logo{
+    width: 80px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.menu{
+    float: left;
+    position: relative;
+}
+
+#menu2{
+    margin-top: 50px;
+    margin-left: 45%;
+}
+
+#menu2 li{
+    float: left;
+    list-style-type: none;
+    padding: 20px 40px 20px 40px;
+    transition: all .3s;
+}
+
+.link_menu{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black ;
+}
+
+.link_menu:hover{
+    color: #b4b2b2;
+}
+
+/*texto*/   
+#box_text01{
+    text-align: center;
+    text-shadow: 3px 3px black ;
+}
+
+#subtitulo_header{
+    font-size: 60px;
+    padding-top: 20%;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/*Início*/
+#inicio{
+    font-weight: 0;
+    color: black;
+    font-size: 35px;
+    padding: 30px 10% 0 10%;
+}
+
+#box_hr1{
+    padding-left: 50%;
+    transform: translateX(-70px);
+}
+
+#hr1{
+    width: 100px;
+}
+
+/*Seção01*/
+#secao1{
+    color: black;
+    padding: 20px;
+    height: 1600px;
+}
+
+#met1{
+    background-color: #012875;
+}
+
+#met2{
+    background-color: #0075A1;
+}
+
+#met3{
+    background-color: #6889AC;
+}
+
+#met4{
+    background-color: #F2917E;
+}
+
+.pad{
+    box-shadow: 2px 2px black;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}
+
+.float_secao1{
+    float: left;
+    padding: 0 0 0 0;
+}
+
+.figca{
+    width: 15%;
+}
+
+#hipo{
+    height: 160px;
+    width: 30%;
+}
+
+#iodo{
+    height: 200px;
+    width: 20%;
+}
+
+#hipo2{
+    margin-top: 120px;
+}
+
+#iodo2{
+    margin-top: 130px;
+}
+
+#fervura{
+    margin-top: 80px;
+}
+
+#PG{
+    margin-top: 70px;
+}
+
+#filtro{
+    margin-top: 110px;
+}
+
+.hipo_iodo{
+    color: grey;
+    font-size: 15px;
+    padding: 15px;
+    text-align: left;
+}
+
+
+#secao1 figure{
+    padding-top: 10px;
+    height: 30%;
+}
+
+.quatro{
+    font-size: 20px;
+    height: 650px;
+    width: 40%;
+}
+
+.img_secao1{
+    width: 200px;
+    margin: 10px;
+}
+
+#foto_fundo{
+    background-image: url(imagem/fundo2.jpg);
+}
+
+/*Seção02*/
+#secao2{
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#titulo2{
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+#box_secao2{
+    font-size: 20px;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+}
+
+#box_secao2 h3{
+    padding: 10px 0px 10px 0px;
+}
+
+#foto_fundo2{
+    background-image: url(imagem/fundo3.jpg);
+    margin: 0;
+}
+
+#foto_chuva{
+    width: 40%;
+}
+
+#paragrafo1{
+    line-height: 25px;
+}
+
+/*Seção03*/
+#secao3{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#box_secao3{
+    font-size: 20px;
+    padding-left:10%;
+    padding-right: 10%;
+}
+
+#video_secao3{
+    padding: 5px 0px 5px 0px;
+}
+
+#titulo3{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/*Figure*/
+.foto_figure{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Ids & class share*/
+.centro{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 35px 0 35px 0px;
+}
+
+.coluna{
+    float: left;
+    position: relative;
+    padding: 0 5% 5% 5%;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.link_secao1{
+    font-weight: 600;
+    font-style: italic;
+    color: #26a7df;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.link_secao1:hover{
+    color: #26a8df98;
+}
+
+/*Rodapé*/
+footer{
+    width:100%;
+    background-color: #363636;
+}
+
+#redes_sociais{
+    width:100%;
+    height: 88px;
+    background-color:#f0f0f0;
+}
+
+.fotos_redes{
+    width: 100%;
+    height: 100%;
+}
+
+.img_redes{
+    margin: 30px 5px 30px 5px;
+    padding: 0;
+    border-radius: 6px;
+    width: 30px;
+}
+
+#lista_rodape li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.links_rodape{
+    text-decoration: none;
+    color: rgba(255,255,255,.57);
+}
+
+#text_rodape{
+    color: rgba(255,255,255,.57);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#e-mail{
+    color: #26a7df;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#text_rodape a{
+    text-transform: lowercase;
+}
+
+#e-mail:hover{
+    color: #26a8df98;
+}
+
+/*Reponsividade*/
+
+/*Reponsividade pc*/
+@media all and (max-width: 1500px){
+    #box_secao2{
+        padding-bottom: 25%;
+    }
+}
+
+@media all and (max-width: 1359px){
+    #menu2{
+        margin-left: 30%;
+    }
+
+    #box_hr1{
+        transform: translateX(-40px);
+    }
+}
+
+@media all and (max-width: 1353px){
+    .quatro{
+        height: 650px;
+    }
+
+    #box_secao2{
+        padding-bottom: 30%;
+    }
+}
+
+@media all and (max-width: 1176px){
+    #secao1{
+        height: 1700px;
+    }
+
+    #box_secao2{
+        padding-bottom: 40%;
+    }
+}
+
+@media all and (max-width: 1133px){
+    .quatro{
+        height: 720px;
+    }
+
+    #secao1{
+        height: 1800px;
+    }
+}
+
+@media all and (max-width: 966px){
+    .quatro{
+        height: 780px;
+    }
+
+    #secao1{
+        height: 1850px;
+    }
+}
+
+@media all and (max-width: 909px){
+    #menu2{
+        margin-left: 10%;
+    }
+
+    .quatro{
+        height: 800px;
+    }
+}
+
+@media all and (max-width: 1379px){
+    #menu2{
+        margin-left: 40%;
+    }
+}
+
+@media all and (max-width: 1264px){
+    #menu2{
+        margin-left: 35%;
+    }
+}
+
+@media all and (max-width: 1167px){
+    #menu2{
+        margin-left: 30%;
+    }
+}
+
+@media all and (max-width: 1101px){
+    #menu2{
+        margin-left: 25%;
+    }
+}
+
+@media all and (max-width: 1028px){
+    #menu2{
+        margin-left: 20%;
+    }
+}
+
+@media all and (max-width: 965px){
+    #menu2{
+        margin-left: 15%;
+    }
+}
+
+@media all and (max-width: 909px){
+    #menu2{
+        margin-left: 10%;
+    }
+}
+
+/*Reponsividade celular maior*/
+@media all and (max-width: 900px){
+    #menu2{
+        visibility: hidden;
+    }
+
+    header{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    #menu1{
+        padding-left: 50%;
+        transform: translateX(-110px);
+    }
+
+    #secao1{
+        height: 3600px;
+    }
+
+    #subtitulo_header{
+        font-size: 30px;
+    }
+
+    #box_hr1{
+        transform: translateX(-50px);
+    }
+
+    .quatro{
+        height: 1100px;
+        width: 90%;
+    }
+    
+    .figca{
+        width: 15%;
+    }
+    
+    #hipo{
+        height: 160px;
+        width: 50%;
+    }
+    
+    #iodo{
+        height: 200px;
+        width: 40%;
+    }
+
+    #hipo2{
+        margin-top: 100px;
+    }
+
+    #dois{
+        height: 650px;
+    }
+
+    #tres{
+        height: 550px;
+    }
+
+    #filtro{
+        margin-top: 100px;
+    }
+
+    #box_secao2 {
+        padding-bottom: 700px;
+    }
+
+    #video_1{
+        width: 100%;
+    }
+
+    #foto_chuva{
+        padding-top: 15px;
+        width: 100%;
+    }
+
+    #video_2{
+        width: 100%;
+    }
+
+    nav{
+        visibility: visible;
+    }
+    
+    label{
+        visibility: visible;
+    }
+    
+    input[type="checkbox"]{
+        visibility: visible;
+    }
+
+    #label_menu{
+        top: 0;
+        z-index: 1;
+    }
+
+    input[type="checkbox"]{
+        top: 0;
+        display: none;
+    }
+
+    nav{
+        top: 0px;
+        width: 350px;
+        height: 100%;
+        z-index: 0;
+        left: -350px;
+        background-color: rgba(0, 0, 0, 0.932);
+        transition: all .5s;
+    }
+
+    nav li{
+        padding: 20px 0 20px 0px;
+        position: relative;
+        top: 100px;
+        width: 100%;
+    }
+
+    .bot_menu{
+        font-size: 20px;
+        padding-left: 40px;
+        text-decoration: none;
+        color: white;
+    }
+
+    #img_menu{
+        padding: 30px;
+        width: 40px;
+    }
+
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(350px);
+    }
+}
+
+@media all and (max-width: 464px){
+    #subtitulo_header {
+        font-size: 25px;
+    }
+
+    #box_secao2 {
+        padding-bottom: 600px;
+    }
+}
+
+@media all and (max-width: 409px){
+    #lista_rodape{
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 375px){
+    #subtitulo_header {
+        padding-left: 10%;
+    }
+
+    #fervura{
+        margin-top: 0;
+    }
+    
+    #PG{
+        margin-top: 0;
+    }
+    
+    #filtro{
+        margin-top: 0;
+    }
+
+    .hipo_iodo{
+        padding-top: 0px;
+    }
+}
+
+@media all and (max-width: 362px){
+    #lista_rodape {
+        font-size: 11px;
+    }
+
+    #secao1 {
+        height: 3700px;
+    }
+}
+
+@media all and (max-width: 352px){
+    #subtitulo_header {
+        padding-left: 13%;
+    }
+
+    #dois {
+        height: 700px;
+    }
+
+    .quatro{
+        height: 1200px;
+    }
+
+    #secao1 {
+        height: 3800px;
+    }
+}
+
+@media all and (max-width: 335px){
+    #subtitulo_header {
+        padding-left: 10%;
+        padding-top: 0%;
+    }
+    
+    #secao1 {
+        height: 3900px;
+    }
+
+    #box_secao2 {
+        padding-bottom: 500px;
+    }
+
+    nav{
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 320px){
+    #img-logo {
+        width: 50px;
+    }
+
+    #box_text01{
+        position: absolute;
+        top: 40%;
+    }
+
+    #subtitulo_header {
+        padding-left: 12%;
+    }
+
+    #secao1 {
+        height: 3980px;
+    }
+
+    #img_menu {
+        width: 30px;
+    }
+
+    #lista_rodape {
+        font-size: 10px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    #titulo2{
+        font-size: 20px;
+    }
+
+    #titulo3{
+        font-size: 20px;
+    }
+
+    #menu1 {
+        transform: translateX(-95px);
+    }
+}
+
+@media all and (max-width: 280px){
+    #subtitulo_header {
+        font-size: 20px;
+    }
+
+    nav{
+        width: 250px;
+    }
+
+    .bot_menu{
+        font-size: 15px;
+    }
+
+    .quatro{
+        height: 1350px;
+    }
+
+    #dois{
+        height: 800px;
+    }
+
+    #tres {
+        height: 630px;
+    }
+
+    #secao1 {
+        height: 4400px;
+    }
+
+    #lista_rodape {
+        font-size: 15px;
+    }
+}
