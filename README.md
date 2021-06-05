@@ -7,4 +7,4 @@
 - 👗 CSS - Um pouco de estilo.
 
 ## Pq?
-Site desenvolvido dentro do curso **Meu Primeiro Site** para concorrer em uma competição da  **JA BRASIL**.
+Site desenvolvido dentro do curso **Meu Primeiro Site** da  **JA BRASIL**.
